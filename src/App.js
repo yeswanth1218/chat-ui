@@ -16,7 +16,7 @@ function App() {
     setLoading(true); // Show loading state
 
     try {
-      const response = await fetch("http://localhost:8000/generate-response", {
+      const response = await fetch("http://13.234.216.255:8000/generate-response", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
